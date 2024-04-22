@@ -1,0 +1,109 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.left-container2 {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #b5d2e2;
+}
+
+.right-container2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-container2 h2 {
+  margin-bottom: 20px;
+}
+
+.toggle-bar2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.toggle-bar2 button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-bar2 button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.toggle-bar2 button:hover {
+  background-color: #0056b3;
+}
+
+.input-field {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.checkbox-container label {
+  margin-left: 5px;
+}
+
+.btn-primary4 {
+  width: 50%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 105px;
+}
+
+.btn-primary4:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary4 {
+  width: 50%;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-secondary4:hover {
+  background-color: #0056b3;
+}
+
+.link {
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+#image {
+  max-width: 100%;
+  max-height: 113%;
+  border: 10px;
+  padding-right: 92px;
+}
